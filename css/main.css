@@ -1,0 +1,97 @@
+main
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#productTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+#productTitle div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+#productTitle div div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#productTitle-share svg
+{
+    display: block; 
+    fill: none; 
+    height: 16px; 
+    width: 16px; 
+    stroke: currentcolor; 
+    stroke-width: 2; 
+    overflow: visible;
+}
+
+#productTitle-save svg
+{
+    display: block; 
+    fill: none; 
+    height: 16px; 
+    width: 16px; 
+    stroke: currentcolor; 
+    stroke-width: 2; 
+    overflow: visible;
+}
+
+#productTitle div div a
+{
+    color: black;
+}
+
+#dashboard
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* utilizando o repeat e o fr pois o tamanho da coluna pode se ajustar automaticamente, 
+    a gente  define um tamanho fixo para as rows*/
+    grid-template-rows: 180px 180px;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+#dashboard picture img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#dashboard .img01 
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#dashboard .img01 img
+{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#dashboard .img03 img
+{
+    border-top-right-radius: 1rem;
+} 
+
+#dashboard .img05 img
+{
+    border-bottom-right-radius: 1rem;
+}
