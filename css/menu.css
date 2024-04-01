@@ -69,6 +69,13 @@ header div #logoMenu a img
     background-color: #ff385c;
     padding: 0.9rem;
     border-radius: 50%;
+    display: block; 
+    fill: none; 
+    height: 12px; 
+    width: 12px; 
+    stroke: currentcolor; 
+    stroke-width: 5.33333; 
+    overflow: visible;
 }
 
 #optionsMenu nav
@@ -83,6 +90,14 @@ header div #logoMenu a img
 {
     text-decoration: none;
     color: black;
+}
+
+#optionsMenu nav a svg
+{
+    display: block; 
+    height: 16px; 
+    width: 16px; 
+    fill: currentcolor;
 }
 
 #optionsMenu nav button
@@ -103,6 +118,13 @@ header div #logoMenu a img
 #optionsMenu nav button svg 
 {
     margin-left: 0.2rem;
+    display: block; 
+    fill: none; 
+    height: 16px; 
+    width: 16px; 
+    stroke: currentcolor; 
+    stroke-width: 3; 
+    overflow: visible;
 }
 
 #optionsMenu nav button img 
